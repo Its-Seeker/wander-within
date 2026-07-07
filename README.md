@@ -1,36 +1,232 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  Wander Within
 
-## Getting Started
+A modern, secure, and responsive therapy website built with **Next.js**, designed to provide a seamless experience for clients seeking mental health support. The platform includes online appointment booking, secure payments, client intake forms, educational resources, and an admin dashboard for managing content and client interactions.
 
-First, run the development server:
+---
+
+##  Features
+
+###  Public Website
+
+* Beautiful and responsive homepage
+* About the Therapist
+* Services overview
+* Individual service pages
+* Blog & Mental Health Resources
+* Downloadable worksheets and resources
+* FAQ section
+* Testimonials
+* Contact page
+* Privacy Policy & Terms
+* Newsletter subscription
+* Social media integration
+* Google Analytics & SEO optimization
+* Fast loading and mobile-friendly design
+
+###  Appointment System
+
+* Online appointment booking
+* Calendly integration
+* One-click booking from every page
+* Floating WhatsApp contact button
+* Booking confirmation
+
+###  Client Forms
+
+* Client Intake Form
+* Consent & Confidentiality Form
+* Contact Form
+* Newsletter Signup
+
+###  Payments
+
+* Secure online payments
+* Payment confirmation page
+* Payment webhook integration
+
+###  Admin Dashboard
+
+* Secure admin authentication
+* Manage appointments
+* Manage blog posts
+* Manage testimonials
+* Manage downloadable resources
+* Manage newsletter subscribers
+* View client submissions
+
+---
+
+#  Tech Stack
+
+### Frontend
+
+* Next.js (App Router)
+* React
+* Tailwind CSS
+* JavaScript
+* Framer Motion
+* Lucide React
+* Shadcn/UI
+
+### Backend
+
+* Next.js API Routes
+* Prisma ORM
+* PostgreSQL
+* NextAuth/Auth.js
+
+### Integrations
+
+* Calendly
+* Razorpay / Stripe
+* Resend
+* Google Analytics
+
+---
+
+#  Project Structure
+
+```text
+wander-within/
+│
+├── app/
+│   ├── api/
+│   ├── about/
+│   ├── services/
+│   ├── booking/
+│   ├── blog/
+│   ├── contact/
+│   ├── resources/
+│   ├── testimonials/
+│   ├── faq/
+│   ├── payment/
+│   └── admin/
+│
+├── components/
+│
+├── lib/
+│
+├── prisma/
+│
+├── public/
+│
+└── hooks/
+```
+
+---
+
+#  Getting Started
+
+## Clone the repository
+
+```bash
+git clone <repository-url>
+cd wander-within
+```
+
+## Install dependencies
+
+```bash
+npm install
+```
+
+## Configure environment variables
+
+Create a `.env` file in the project root.
+
+```env
+DATABASE_URL=
+
+NEXTAUTH_SECRET=
+
+NEXTAUTH_URL=
+
+RAZORPAY_KEY_ID=
+
+RAZORPAY_KEY_SECRET=
+
+RESEND_API_KEY=
+
+NEXT_PUBLIC_CALENDLY_URL=
+```
+
+## Generate Prisma Client
+
+```bash
+npx prisma generate
+```
+
+## Run database migrations
+
+```bash
+npx prisma migrate dev
+```
+
+## Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+#  Main Modules
 
-To learn more about Next.js, take a look at the following resources:
+* Homepage
+* About
+* Services
+* Booking
+* Contact
+* Blog
+* Resources
+* FAQ
+* Testimonials
+* Client Intake
+* Consent Form
+* Payments
+* Admin Dashboard
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+#  Security
 
-## Deploy on Vercel
+* Secure authentication
+* Form validation
+* Protected admin routes
+* Secure payment processing
+* Environment variable protection
+* Server-side API routes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#  Future Roadmap
+
+* Online therapy sessions
+* Courses
+* Workshops
+* Group therapy programs
+* Client portal
+* Appointment reminders
+* Email automation
+* Multi-admin support
+* Resource management improvements
+
+---
+
+# License
+
+This project is developed for a client and is intended for production use. Unauthorized redistribution or commercial reuse without permission is not permitted.
+
+---
+
+##  Developer
+
+**Mayank Sharma**   **Ketan Arora**
+
+Built using modern web technologies with a focus on accessibility, performance, scalability, and user experience.
