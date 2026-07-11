@@ -19,7 +19,7 @@ export default function TherapistPreview(){
 
                     <Image
 
-                        src="/images/therapist.jpeg"
+                        src="/images/Therapist.jpeg"
 
                         alt="Therapist"
 

@@ -1,88 +1,69 @@
-import Image from "next/image";
 import Link from "next/link";
 import styles from "./Hero.module.css";
 
 
-export default function Hero() {
+export default function Hero(){
 
     return (
 
         <section className={styles.hero}>
 
-            {/* Left Content */}
+
+            <div className={styles.overlay}></div>
+
 
             <div className={styles.content}>
 
-                <p className={styles.smallTitle}>
+
+                <p className={styles.tag}>
                     WELCOME TO WANDER WITHIN
                 </p>
 
 
                 <h1>
-                    Your Journey Towards
+                    A Safe Space For
                     <br />
-                    Mental Wellness Begins Here
+                    Your Healing Journey
                 </h1>
 
 
                 <p className={styles.description}>
-                    A safe and compassionate space where you can
-                    understand yourself, heal emotionally, and grow
-                    with professional guidance.
+                    Compassionate therapy and mental health support
+                    to help you heal, grow and reconnect with yourself.
                 </p>
+
 
 
                 <div className={styles.buttons}>
 
+
                     <Link href="/booking">
 
-                        <button className={styles.primaryBtn}>
+                        <button className={styles.primary}>
                             Book a Session
                         </button>
 
                     </Link>
 
 
+
                     <Link href="/services">
 
-                        <button className={styles.secondaryBtn}>
+                        <button className={styles.secondary}>
                             Explore Services
                         </button>
 
                     </Link>
 
+
                 </div>
+
 
             </div>
-
-
-
-            {/* Right Image */}
-
-            <div className={styles.imageBox}>
-
-                {/* <div className={styles.imageCard}> */}
-
-                    <Image
-
-                        src="/images/logo.png"
-
-                        alt="Therapist"
-
-                        width={450}
-
-                        height={550}
-
-                        priority
-
-                    />
-
-                </div>
-
-            {/* </div> */}
 
 
         </section>
 
     );
+
 }

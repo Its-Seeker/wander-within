@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className={styles.logo}>
         <Link href="/">
           <Image
-            src="/images/logo.png"
+            src="/images/logo1.png"
             alt="Wander Within Logo"
             width={160}
             height={70}
