@@ -36,10 +36,6 @@ export default function Navbar() {
           Services
         </Link>
 
-        <Link href="/resources">
-          Resources
-        </Link>
-
         <Link href="/faq">
           FAQ
         </Link>

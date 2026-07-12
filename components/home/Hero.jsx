@@ -21,9 +21,7 @@ export default function Hero(){
 
 
                 <h1>
-                    A Safe Space For
-                    <br />
-                    Your Healing Journey
+                    where every step leads to a new discovery..
                 </h1>
 
 
