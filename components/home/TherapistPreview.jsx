@@ -19,7 +19,7 @@ export default function TherapistPreview(){
 
                     <Image
 
-                        src="/images/therapist.jpeg"
+                        src="/images/Therapist.jpeg"
 
                         alt="Therapist"
 
@@ -44,29 +44,33 @@ export default function TherapistPreview(){
 
 
                     <h2>
-                        A Safe Space For Healing
-                        And Personal Growth
-                    </h2>
+        Meet Aakanksha
+    </h2>
 
 
-                    <p>
-
-                        At Wander Within, we believe that
-                        everyone deserves a safe and supportive
-                        space to understand themselves, manage
-                        emotions, and build a healthier life.
-
-                    </p>
+    <p>
+        Aakanksha is a warm and compassionate Counselling Psychologist 
+        who believes that healing begins when you feel truly heard, 
+        understood, and accepted without judgment.
+    </p>
 
 
-                    <p>
+    <p>
+        Holding a Master’s degree in Psychology and a Diploma in Counselling, 
+        she has supported over 80 individuals through online and in-person 
+        therapy. Through her initiative, <strong>Wander Within</strong>, she 
+        creates a safe, welcoming, and open-minded space where individuals 
+        can explore their emotions, challenges, and personal growth journeys.
+    </p>
 
-                        With a compassionate and personalized
-                        approach, I help individuals navigate
-                        anxiety, stress, relationships, and
-                        personal challenges.
 
-                    </p>
+    <p>
+        Her therapeutic approach combines evidence-based psychological 
+        practices with spiritual wisdom, recognizing that every person's 
+        healing journey is unique. With empathy, authenticity, and deep 
+        respect for each individual's story, Aakanksha walks alongside her 
+        clients as they heal, grow, and reconnect with themselves.
+    </p>
 
 
 

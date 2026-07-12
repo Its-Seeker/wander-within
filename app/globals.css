@@ -14,3 +14,44 @@ body {
   color: #35105C;
   font-family: Arial, sans-serif;
 }
+
+.bookingPage{
+
+    min-height:100vh;
+
+    background:#eee4ff;
+
+    padding:40px;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:30px;
+
+}
+
+
+
+.leftSide,
+.rightSide{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:30px;
+
+}
+
+
+
+@media(max-width:900px){
+
+    .bookingPage{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
